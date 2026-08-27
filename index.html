@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wonder Frame | Nature Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>WONDER FRAME</h1>
+        <p>A Journey Through Nature</p>
+    </header>
+
+
+    <!-- FILTER BUTTONS -->
+    <section class="filters">
+
+        <button class="filter-btn active" data-filter="all">
+            All
+        </button>
+
+        <button class="filter-btn" data-filter="mountain">
+            Mountains
+        </button>
+
+        <button class="filter-btn" data-filter="beach">
+            Beaches
+        </button>
+
+        <button class="filter-btn" data-filter="waterfall">
+            Waterfalls
+        </button>
+
+        <button class="filter-btn" data-filter="forest">
+            Forests
+        </button>
+
+        <button class="filter-btn" data-filter="flower">
+            Flowers
+        </button>
+
+        <button class="filter-btn" data-filter="sunset">
+            Sunsets
+        </button>
+
+    </section>
+
+
+    <!-- IMAGE GALLERY -->
+    <main class="gallery">
+
+
+        <!-- MOUNTAINS -->
+
+        <div class="gallery-item mountain">
+            <img src="images/MOUNTAIN1.jpg" alt="Beautiful Mountain">
+            <div class="overlay">
+                <h3>Mountain Escape</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item mountain">
+            <img src="images/MOUNTAIN2.jpg" alt="Beautiful Mountain">
+            <div class="overlay">
+                <h3>Mountain Paradise</h3>
+            </div>
+        </div>
+
+
+        <!-- BEACHES -->
+
+        <div class="gallery-item beach">
+            <img src="images/BEACH1.jpg" alt="Beautiful Beach">
+            <div class="overlay">
+                <h3>Ocean Dreams</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item beach">
+            <img src="images/BEACH2.jpg" alt="Beautiful Beach">
+            <div class="overlay">
+                <h3>Beach Paradise</h3>
+            </div>
+        </div>
+
+
+        <!-- WATERFALLS -->
+
+        <div class="gallery-item waterfall">
+            <img src="images/WATERFALL1.jpg" alt="Beautiful Waterfall">
+            <div class="overlay">
+                <h3>Hidden Falls</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item waterfall">
+            <img src="images/WATERFALL2.jpg" alt="Beautiful Waterfall">
+            <div class="overlay">
+                <h3>Nature Flow</h3>
+            </div>
+        </div>
+
+
+        <!-- FORESTS -->
+
+        <div class="gallery-item forest">
+            <img src="images/FOREST1.jpg" alt="Beautiful Forest">
+            <div class="overlay">
+                <h3>Into The Woods</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item forest">
+            <img src="images/FOREST2.jpg" alt="Beautiful Forest">
+            <div class="overlay">
+                <h3>Green Escape</h3>
+            </div>
+        </div>
+
+
+        <!-- FLOWERS -->
+
+        <div class="gallery-item flower">
+            <img src="images/FLOWER1.jpg" alt="Beautiful Flowers">
+            <div class="overlay">
+                <h3>Blooming Beauty</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item flower">
+            <img src="images/FLOWER2.jpg" alt="Beautiful Flowers">
+            <div class="overlay">
+                <h3>Floral Dreams</h3>
+            </div>
+        </div>
+
+
+        <!-- SUNSETS -->
+
+        <div class="gallery-item sunset">
+            <img src="images/SUNSET1.jpg" alt="Beautiful Sunset">
+            <div class="overlay">
+                <h3>Golden Hour</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item sunset">
+            <img src="images/SUNSET2.jpg" alt="Beautiful Sunset">
+            <div class="overlay">
+                <h3>Sunset Serenity</h3>
+            </div>
+        </div>
+
+    </main>
+
+
+    <!-- LIGHTBOX -->
+
+    <div class="lightbox" id="lightbox">
+
+        <span class="close">&times;</span>
+
+        <img
+            id="lightbox-img"
+            src=""
+            alt="Image Preview"
+        >
+
+        <p id="lightbox-caption"></p>
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+        <p>Wonder Frame • Nature & Travel Gallery</p>
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
